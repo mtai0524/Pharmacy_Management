@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    font-size: 2em;
+}
+input.form-control, select.form-control{
+    font-size: 16px;
+}
+.btn-primary{
+    font-size: 1em;
+}
+.btn-link{
+    font-size: 1em;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.pagination{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+}
+a.logout{
+    position: absolute;
+    z-index: 1000;
+    right: 60px;
+    top: 100px;
+    color: black;
+}
+.topnav {
+    background-color: #0f62f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.navlink {
+    display: flex;
+}
+
+.content {
+    background-color: #fff;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.footer {
+    width: 100vw;
+    height: 20vw;
+    background-color: #0f62f9;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.footer a {
+    margin: 10px;
+    color: #fff;
+}
+
+.product-wrap {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.product {
+    background: rgb(255, 255, 255);
+    height: 300px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    outline: 0;
+    box-shadow: rgb(15 61 145 / 12%) 0px 0px 12px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+}
+
+.product:hover {
+    border: 4px solid #5dac46;
+}
+
+.product-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.detail-info-prod {
+    font-weight: 600;
+    margin-left: 25px;
+    width: 500px;
+}
+
+.img-detail-prod {
+    outline: 0;
+    box-shadow: rgb(15 61 145 / 12%) 0px 0px 25px;
+}
+
+.search_container {
+    padding: 20px 25px;
+}
+
+.search-notice {
+    font-size: 40px;
+    color: #000;
+    padding-left: 35px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+/* Nút Dropdown*/
+.nut_dropdown {
+    background-color: #0080ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Nội dung Dropdown */
+.noidung_dropdown {
+    /*Ẩn nội dụng các đường dẫn*/
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Thiết kế style cho các đường dẫn tronng Dropdown */
+.noidung_dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* thay đổi màu background khi hover vào đường dẫn */
+.noidung_dropdown a:hover {
+    background-color: #ddd;
+}
+
+/* hiển thị nội dung dropdown khi hover */
+.dropdown:hover .noidung_dropdown {
+    display: block;
+}
+
+/* Thay đổi màu background cho nút khi được hover */
+.dropdown:hover .nut_dropdown {
+    background-color: #00bfff;
+}
+
+.inputFind {
+    padding: 5px;
+    margin-right: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: transparent;
+    border-bottom: 2px solid rgb(204, 202, 202);
+}
+
+.btnFind {
+    /*top right bottom left*/
+    padding: 5px 20px 5px 20px;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    position: absolute;
+    right: 30px;
+}
+
+.addproduct,.updateproduct{
+    padding: 10px 20em 10px 20em;
+}
+.btn_addproduct, .btn_edit{
+    padding: 10px;
+    background-color: #0f62f9;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn_addproduct:hover, .btn_edit:hover{
+    background-color: yellow;
+    color: #000;
+}
