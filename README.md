@@ -12,7 +12,7 @@
 
 ## Xem danh sách
 <p align="center">
-    <img src="https://res.cloudinary.com/dl3hvap4a/image/upload/v1695998135/%E1%BA%A2nh4_fpnskx.pngg" style="width:500px;height:300px" />
+    <img src="https://res.cloudinary.com/dl3hvap4a/image/upload/v1695998135/%E1%BA%A2nh4_fpnskx.png" style="width:500px;height:300px" />
 </p>
 
 
